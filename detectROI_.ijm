@@ -10,3 +10,7 @@ for(i=0;i<roiManager("count");i++)
 	run("Interpolate", "interval=2 smooth adjust");
 	roiManager("Update");	
 }
+
+roiManager("Select", 0);
+run("Select All");
+roiManager("Multi Measure");
